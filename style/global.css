@@ -1,12 +1,10 @@
 * {
   box-sizing: border-box;
-  margin: 0;
 }
 
 body {
   text-align: center;
   background-color: rgb(241, 241, 241);
-  height: 100%vh;
 }
 
 h1,
@@ -15,8 +13,9 @@ p {
   color: rgb(234, 140, 255);
 }
 
-#cc {
+a {
   font-family: "Noto Sans KR", sans-serif;
-  color: rgb(233, 133, 255);
   text-decoration: none;
+  color: white;
+  background-color: rgb(234, 140, 255);
 }
