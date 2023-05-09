@@ -1,0 +1,17 @@
+a:hover {
+  background-color: rgb(243, 255, 132);
+}
+
+#cong {
+  background-color: rgb(138, 252, 229);
+  width: 300px;
+  height: 20px;
+  border-radius: 40%;
+}
+
+#congcong {
+  background-color: rgb(199, 235, 255);
+  width: 300px;
+  height: 20px;
+  border-radius: 40%;
+}
