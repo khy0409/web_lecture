@@ -2,6 +2,12 @@ a:hover {
   text-decoration: underline;
 }
 
+a {
+  font-size: 16px;
+  border-radius: 2px;
+  padding: 4px;
+}
+
 #today-goal {
   color: rgb(118, 193, 237);
   font-size: 32px;
