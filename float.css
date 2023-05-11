@@ -6,31 +6,46 @@
 body {
   font-family: "Roboto", sans-serif;
   letter-spacing: -0.02em;
+  background-color: #a4aab1;
 }
 
 a {
   font-size: 18px;
-  line-height: 20px;
+  line-height: 0px;
   color: #8492a6;
   text-decoration: none;
+  display: block;               /*a의 기본 display방식은 inline이므로 block으로 강제 변환*/
 }
 
 /* ▼ WHERE YOUR CODE BEGINS */
-a:hover {
-  border-bottom: 3px solid;
-  color: rgb(0, 136, 255);
-  font-weight: bold;
+ul {
+  list-style-type: none;        /*ul에 자동으로 적용되는 disc를 삭제*/
+  background-color: white;    /*ul의 배경색을 흰색으로 지정*/
 }
 
-.ttt {
-  width: 200px;
-  margin: 0 auto;
-  overflow: hidden;
-  padding: 16px 20px;
+a:hover {                       /*a의 상태가 마우스가 올라온 상태일 때*/
+  border-bottom: 3px solid;     /*아래쪽에만 줄 삽입*/
+  color: rgb(0, 136, 255);    /*color를 rgb값으로 지정*/
+  font-weight: bold;            /*폰트 굵기를 bold로 지정(굵은 글씨)*/
 }
 
-.khy {
-  height: 40px;
+.parent {
+  width: 364px;                 /*parent의 가로 넓이를 364로 지정(자식들이 모두 들어갈 수 있는 크기)*/
+  margin: 30px auto;            /*margin값을 30으로 지정(parent가 창에서 띄어짐) auto로 지정(parent가 중간에 옴)*/
+}
+
+.child {
+  height: 200px;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.parent::after {
+  content: "";
+  clear: left; /* clear는 block타입에서만 작동 - after는 inline이므로 display 방식 바꿈*/
+  display: block;
 }
 
 .sum {
