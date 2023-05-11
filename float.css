@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; /*margin, padding값이 영향을 주지않음*/
   margin: 0;
 }
 
