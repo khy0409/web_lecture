@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  color: #273444;
+  background-color: hsl(0, 0%, 0%);
+}
+
+.profile-name {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.3333333333;
+}
+
+.profile-location {
+  font-size: 14px;
+  line-height: 1.4285714286;
+  color: #8492a6;
+}
+
+.profile-detail dt {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.6666666667;
+  color: #8492a6;
+}
+
+.profile-detail dd {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1.25;
+  color: #0066ff;
+}
+
+/* ▼ 여기 아래부터 코드를 적어주세요! */
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  width: 386px;
+  padding: 32px 40px;
+  border-radius: 16px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.profile-image {
+  width: 120px;
+  border-radius: 50%;
+  padding-bottom: 16px;
+}
+
+.profile-name {
+  padding-bottom: 4px;
+}
+
+.profile-location {
+  padding-bottom: 32px;
+}
+
+.profile-detail {
+  display: flex;
+  justify-content: space-between;
+}
+.profile-detail-item {
+  padding-bottom: 4px;
+}
