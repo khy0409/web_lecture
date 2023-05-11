@@ -30,7 +30,7 @@ a:hover {                       /*a의 상태가 마우스가 올라온 상태�
 }
 
 .parent {
-  width: 364px;                 /*parent의 가로 넓이를 364로 지정(자식들이 모두 들어갈 수 있는 크기)*/
+  width: 410px;                 /*parent의 가로 넓이를 364로 지정(자식들이 모두 들어갈 수 있는 크기)*/
   margin: 30px auto;            /*margin값을 30으로 지정(parent가 창에서 띄어짐) auto로 지정(parent가 중간에 옴)*/
 }
 
