@@ -70,6 +70,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.profile-detail-item {
+.profile-detail-item dt {
   padding-bottom: 4px;
 }
