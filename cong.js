@@ -1,6 +1,6 @@
 const score = prompt("성적을 입력하세요");
 
-kk = Number(score);
+const kk = Number(score);
 
 if (Number.isNaN(kk) || kk < 0) {
   console.log("ERROR");
